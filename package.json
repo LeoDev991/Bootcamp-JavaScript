@@ -1,0 +1,39 @@
+{
+  "name": "bootcamp-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoDev991/Bootcamp-JavaScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "bootcamp",
+    "programming",
+    "coding",
+    "web-development",
+    "nodejs",
+    "frontend",
+    "backend",
+    "fullstack",
+    "learning",
+    "education",
+    "course",
+    "tutorial",
+    "training",
+    "development",
+    "software",
+    "technology"
+  ],
+  "author": "Leonardo Thome",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LeoDev991/Bootcamp-JavaScript/issues"
+  },
+  "homepage": "https://github.com/LeoDev991/Bootcamp-JavaScript#readme"
+}
