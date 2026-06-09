@@ -7,9 +7,12 @@ const client = {
     device: "web"
 }
 
+const databaseName = "meu_banco"
+
 module.exports = {
     devAera,
     client,
+    databaseName,
 };
 
 //Sempre que for exportar mais de uma coisa, é necessário usar o module.exports, e passar um objeto com as chaves e os valores que se deseja exportar.

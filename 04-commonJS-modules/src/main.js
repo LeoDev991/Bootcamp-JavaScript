@@ -1,14 +1,17 @@
-const p = require("./services/products")
+const product = require("./services/products")
 const config = require("./services/config")
+const database = require("./services/database")
 
 
 async function main() {
-    // p.getFullName("408", "mousepad")
-    //p.getFullName("508", "mouse")
-    //p.getFullName("608", "notebook")
-    //p.getProductLabel("mousepad")
+    console.log("Carrinho de compras:  ")
+    product.getFullName("408", "mousepad")
+    product.getFullName("508", "mouse")
+    product.getFullName("608", "notebook")
+    product.getProductLabel("mousepad")
+    database.connectToDataBase(config.databaseName)
+    database.disconnectDatabase()
 
-    console.log(config.client)
 }
 
 main()
