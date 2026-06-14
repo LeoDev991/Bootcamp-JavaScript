@@ -1,0 +1,7 @@
+async function getBaseEmail(senderName: string): Promise<string> {
+    let base = `Olá ${senderName}. gostaria de me inscrever para receber as novidades do site.`;
+
+    base += `\n Como faço para me inscrever?`;
+    
+    return base;
+}
