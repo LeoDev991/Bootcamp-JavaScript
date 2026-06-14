@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","names":[],"sources":["../src/index.ts"],"sourcesContent":["function main () {\n    let myEmail:string = \"leonardo@dio.me\"\n    console.log(myEmail)\n    \n}\n\nmain()"],"mappings":";AAAA,SAAS,OAAQ;CAEb,QAAQ,IAAI,iBAAO;AAEvB;AAEA,KAAK"}

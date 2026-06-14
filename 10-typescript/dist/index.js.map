@@ -1,1 +1,7 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,SAAS,IAAI;IACT,IAAI,OAAO,GAAU,iBAAiB,CAAA;IACtC,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAA;AAExB,CAAC;AAED,IAAI,EAAE,CAAA"}
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["function main () {\n    let myEmail:string = \"leonardo@dio.me\"\n    console.log(myEmail)\n    \n}\n\nmain()"],
+  "mappings": ";;;AAAA,SAAS,OAAQ;AACb,MAAI,UAAiB;AACrB,UAAQ,IAAI,OAAO;AAEvB;AAEA,KAAK;",
+  "names": []
+}
