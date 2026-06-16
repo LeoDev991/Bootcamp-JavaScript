@@ -4,12 +4,13 @@
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
-    "start:dev": "node src/index.ts"
+    "build": "tsc",
+    "start:dev": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "tslint": "^5.20.1",
     "typescript": "^6.0.3"
