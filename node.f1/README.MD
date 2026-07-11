@@ -42,6 +42,54 @@ This code source was developed with the following items:
 - `npm run start:watch`: Runs the server in development mode with support for automatic reload on file changes.
 - `npm run start:dist`: Compiles the project and runs the compiled version from the dist directory.
 
+# 🧩 API Endpoints
+
+This project provides a small Formula 1 teams API using Fastify.
+
+- `GET /teams`
+  - Returns the full list of teams with their base locations.
+- `GET /teams/:id`
+  - Returns one team by `id`, including the drivers that belong to that team.
+- `GET /drivers`
+  - Returns the full list of drivers.
+- `GET /drivers/:id`
+  - Returns one driver by `id`, including the team details.
+
+### Example requests
+
+Start the app first:
+
+```bash
+npm run start:dev
+```
+
+Then use curl or Thunder Client:
+
+```bash
+curl http://localhost:3333/teams
+curl http://localhost:3333/teams/1
+curl http://localhost:3333/drivers
+curl http://localhost:3333/drivers/5
+```
+
+### Response example
+
+`GET /teams/1` returns a JSON object like:
+
+```json
+{
+  "team": {
+    "id": 1,
+    "name": "ferrari",
+    "base": "Maranello, Italy",
+    "drivers": [
+      { "id": 1, "name": "Charles Leclerc", "teamId": 1 },
+      { "id": 2, "name": "Carlos Sainz", "teamId": 1 }
+    ]
+  }
+}
+```
+
 # 👨‍💻 How To Use
 
 click in **[Use this template]** OR
